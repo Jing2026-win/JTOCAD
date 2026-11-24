@@ -1,6 +1,6 @@
-# CNCAD (ChineseCAD)
+# JTOCAD (ChineseCAD)
 
-一款自主开发的中文CAD绘图工具，基于Visual Studio 2026构建，面向国内用户提供符合使用习惯的二维CAD设计能力。
+一款自主开发的中文CAD绘图工具，基于Visual Studio 2026构建(VS2022也可以)，面向国内用户提供符合使用习惯的二维CAD设计能力。
 
 ## ✨ 功能特性
 
@@ -14,7 +14,7 @@
 ## 🛠️ 环境要求
 
 - 操作系统：Windows 10/11
-- 开发环境：Visual Studio 2022（需安装C++开发工具组件）、Qt6.8.3
+- 开发环境：Visual Studio 2026（需安装C++开发工具组件）、Qt6.8.3
 - 编译依赖：.NET Framework 4.8 / 对应C++运行库
 
 ## 🚀 编译与运行
@@ -22,7 +22,7 @@
 1. 克隆本仓库到本地
    ```bash
    git clone https://github.com/Jing2026-win/CNCAD.git
-2. 使用 Visual Studio 2022 打开解决方案文件ChineseCAD.sln
+2. 使用 Visual Studio 2026 打开解决方案文件ChineseCAD.sln
 3. 选择 Release/x64（或对应配置），点击 "生成解决方案"
 4. 编译完成后，即可运行输出目录下的ChineseCAD.exe启动程序
 
