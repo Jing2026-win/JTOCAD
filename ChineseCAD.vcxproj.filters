@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Base">
+      <UniqueIdentifier>{B1C2D3E4-F5A6-7890-BCDE-F12345678901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Geometry">
+      <UniqueIdentifier>{C1D2E3F4-A5B6-7890-CDEF-123456789012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\DataModel">
+      <UniqueIdentifier>{D1E2F3A4-B5C6-7890-DEF1-234567890123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Command">
+      <UniqueIdentifier>{E1F2A3B4-C5D6-7890-EF12-345678901234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\View">
+      <UniqueIdentifier>{F1A2B3C4-D5E6-7890-F123-456789012345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ui">
+      <UniqueIdentifier>{A2B3C4D5-E6F7-8901-A234-567890123456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\IdGenerator.cpp">
+      <Filter>src\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Geometry\ClipperUtil.cpp">
+      <Filter>src\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Geometry\GeoCircle.cpp">
+      <Filter>src\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Geometry\GeoLine.cpp">
+      <Filter>src\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataModel\CadDocument.cpp">
+      <Filter>src\DataModel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataModel\Entity.cpp">
+      <Filter>src\DataModel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataModel\Layer.cpp">
+      <Filter>src\DataModel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Command\CommandManager.cpp">
+      <Filter>src\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View\CadScene.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View\CadView.cpp">
+      <Filter>src\View</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ui\MainWindow.cpp">
+      <Filter>src\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Command\EditKernel.cpp" />
+    <ClCompile Include="src\Command\DrawToolEngine.cpp" />
+    <ClCompile Include="src\DataModel\DimensionEntity.cpp" />
+    <ClCompile Include="src\Geometry\GeoAlgorithms.cpp" />
+    <ClCompile Include="src\Geometry\GeoRegion.cpp" />
+    <ClCompile Include="src\Geometry\GeoShape.cpp" />
+    <ClCompile Include="src\Geometry\DrawAlgorithms.cpp" />
+    <ClCompile Include="src\Geometry\GeoSpline.cpp">
+      <Filter>src\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Geometry\GeoTransform.cpp" />
+    <ClCompile Include="src\Geometry\GeoTrimExtend.cpp" />
+    <ClCompile Include="src\Geometry\GeoBreak.cpp" />
+    <ClCompile Include="src\Geometry\GeoFilletChamfer.cpp" />
+    <ClCompile Include="src\Geometry\DimensionGeometry.cpp" />
+    <ClCompile Include="src\IO\DxfService.cpp" />
+    <ClCompile Include="src\Ui\PrintService.cpp" />
+    <ClCompile Include="src\View\CadCursorOverlay.cpp" />
+    <ClCompile Include="src\View\CadOptionsDialog.cpp" />
+    <ClCompile Include="src\View\EntityGraphicsItem.cpp" />
+    <ClCompile Include="src\View\GeoShapePainter.cpp" />
+    <ClCompile Include="src\View\GripItem.cpp" />
+    <ClCompile Include="src\View\TextRenderUtil.cpp" />
+    <ClCompile Include="src\View\DimensionRenderUtil.cpp" />
+    <ClCompile Include="src\View\TextEditorDialog.cpp" />
+    <ClCompile Include="src\View\ObjectSnapUtil.cpp" />
+    <ClCompile Include="src\View\DimensionStyleDialog.cpp" />
+    <ClCompile Include="src\View\ObjectSnapSettingsDialog.cpp" />
+    <ClCompile Include="src\View\DynamicPointInputWidget.cpp" />
+    <ClCompile Include="src\Edit\RefEditSession.cpp" />
+    <ClCompile Include="src\DataModel\BlockReferenceEntity.cpp" />
+    <ClCompile Include="src\DataModel\DynamicBlockEvaluator.cpp" />
+    <ClCompile Include="src\IO\LineTypeLibrary.cpp" />
+    <ClCompile Include="src\Ui\LayerControlBar.cpp" />
+    <ClCompile Include="src\Ui\LayerRibbonWidget.cpp" />
+    <ClCompile Include="src\Ui\PropertiesRibbonWidget.cpp" />
+    <ClCompile Include="src\Ui\BlockRibbonWidget.cpp" />
+    <ClCompile Include="src\View\GraphicsConfigDialog.cpp" />
+    <ClCompile Include="src\View\LayerManagerDialog.cpp" />
+    <ClCompile Include="src\View\AcadColorPalette.cpp" />
+    <ClCompile Include="src\View\LayerColorPickerDialog.cpp" />
+    <ClCompile Include="src\View\LayerLineTypePickerDialog.cpp" />
+    <ClCompile Include="src\View\LayerLineWeightPickerDialog.cpp" />
+    <ClCompile Include="src\View\LayerLineTypeLoadDialog.cpp" />
+    <ClCompile Include="src\View\LineTypeManagerDialog.cpp" />
+    <ClCompile Include="src\View\PropertiesPaletteDialog.cpp" />
+    <ClCompile Include="src\View\DynamicPointInputWidget.cpp" />
+    <ClCompile Include="src\View\DynamicPolarInputWidget.cpp" />
+    <ClCompile Include="src\View\DynamicOptionInputWidget.cpp" />
+    <ClCompile Include="src\View\BlockDefinitionDialog.cpp" />
+    <ClCompile Include="src\View\BlockInsertDialog.cpp" />
+    <ClCompile Include="src\View\BlockAttributeEditDialog.cpp" />
+    <ClCompile Include="src\View\BlockEditDialog.cpp" />
+    <ClCompile Include="src\View\BlockEditorDialog.cpp" />
+    <ClCompile Include="src\View\DesignCenterDialog.cpp" />
+    <ClCompile Include="src\View\BlocksPaletteDialog.cpp" />
+  </ItemGroup>
+</Project>
